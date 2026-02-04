@@ -1,0 +1,13 @@
+s1 = "Hello"
+s2 = 'Python'
+s3 = """Welcome  to string demo"""
+
+print("Length of s3:", len(s3))
+print("Length of s3:", len(s3+s2))
+print("Length of s3:", len(s3-s2))
+print("Length of s3:", len(s3)+len(s2))
+
+#output Length of s3: 23
+Length of s3: 29
+Length of s3: 29
+Length of s3: 29
