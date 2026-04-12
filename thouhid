@@ -1,0 +1,14 @@
+for i in range(1, 10):
+    if i % 2 == 0:
+        continue  # Skip even numbers, go to next iteration
+    elif i == 25:
+        break     # Exit the loop when i becomes 25
+          # Explicitly do nothing (dummy placeholder)
+
+    # This block runs only for odd numbers before 25
+    print(i)
+#outputs1
+3
+5
+7
+9
